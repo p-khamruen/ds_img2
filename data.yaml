@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Item', 'item']
+
+roboflow:
+  workspace: image-project-lkqc3
+  project: object-detection-q6rmj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/image-project-lkqc3/object-detection-q6rmj/dataset/2
